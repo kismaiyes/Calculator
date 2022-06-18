@@ -67,7 +67,7 @@ function calculate(firstOperand, secondOperand, operator) {
     return firstOperand + secondOperand
   } else if (operator === '-') {
     return firstOperand - secondOperand
-  } else if (operator === 'x') {
+  } else if (operator === '×') {
     return firstOperand * secondOperand
   } else if (operator === '÷') {
     return firstOperand / secondOperand
@@ -109,7 +109,7 @@ keys.addEventListener('click', (event) => {
     case '+':
     case '-':
     case '÷':
-    case 'x':
+    case '×':
     case '=':
       handleOperator(innerHTML)
       break
